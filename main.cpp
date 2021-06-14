@@ -12,8 +12,7 @@
 
 using namespace std;
 
-class Date { // это я сдёрнул с финальной задачи на курсере. Надо
-// будет изменить и усовершенствовать.
+class Date {
 public:
     Date(int new_year, int new_month, int new_day) {
         year = new_year;
