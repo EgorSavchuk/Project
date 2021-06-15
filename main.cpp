@@ -112,7 +112,7 @@ struct all_food {
     map<Date, day_food> foods;
 };
 
-product search(string search_name) {
+product search(string search_product_name) {
     ifstream products_list("products_list.txt");
     string temp_name;
     double temp_fat, temp_carbs, temp_prot, temp_cal;
@@ -121,7 +121,7 @@ product search(string search_name) {
         while (!products_list.eof())
         {
             products_list >> temp_name >> temp_fat >> temp_carbs >> temp_prot >> temp_cal;
-            if (search_name == temp_name) {
+            if (search_product_name == temp_name) {
                 products_list.close();
                 return product(temp_name, temp_fat, temp_carbs, temp_prot, temp_cal);
             }
@@ -131,7 +131,7 @@ product search(string search_name) {
         return product();
     }
 }
-
+//dasdasdas
 int main() {
     string a = "chicken";
     product b = search(a);
