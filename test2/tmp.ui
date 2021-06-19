@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tmp</class>
+ <widget class="QWidget" name="tmp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>629</width>
+    <height>579</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>160</y>
+     <width>351</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="pushButton_generate">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+  background: #1D1B26;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  position: relative;
+  padding: 15px 30px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image-slice: 1;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 2px;
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+</string>
+      </property>
+      <property name="text">
+       <string>Generate</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_encode">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+  background: #1D1B26;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  position: relative;
+  padding: 15px 30px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image-slice: 1;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 2px;
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+</string>
+      </property>
+      <property name="text">
+       <string>Encode</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_decode">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+  background: #1D1B26;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  position: relative;
+  padding: 15px 30px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image-slice: 1;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 2px;
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+</string>
+      </property>
+      <property name="text">
+       <string>Decode</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>32</x>
+     <y>12</y>
+     <width>361</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+  background: #1D1B26;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  position: relative;
+  padding: 15px 30px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image-slice: 1;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 2px;
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;Welcome to &lt;br/&gt;RSA_Encoder&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>391</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>30</y>
+     <width>361</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+  background: #1D1B26;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  position: relative;
+  padding: 15px 30px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image-slice: 1;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 2px;
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; color:#ffffff;&quot;&gt;Welcome to &lt;br/&gt;RSA_Encoder&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>58</y>
+     <width>391</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>178</y>
+     <width>351</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QPushButton" name="pushButton_generate_2">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+  background: #1D1B26;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  position: relative;
+  padding: 15px 30px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image-slice: 1;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 2px;
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+</string>
+      </property>
+      <property name="text">
+       <string>Generate</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_encode_2">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+  background: #1D1B26;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  position: relative;
+  padding: 15px 30px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image-slice: 1;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 2px;
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+</string>
+      </property>
+      <property name="text">
+       <string>Encode</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_decode_2">
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+  background: #1D1B26;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  position: relative;
+  padding: 15px 30px;
+  border: 1px solid;
+  border-image: linear-gradient(180deg, #ff3000, #ed0200, #ff096c, #d50082);
+  border-image-slice: 1;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  overflow: hidden;
+  letter-spacing: 2px;
+  transition: .8s cubic-bezier(.165, .84, .44, 1);
+</string>
+      </property>
+      <property name="text">
+       <string>Decode</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
