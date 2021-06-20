@@ -37,13 +37,13 @@ void GenerateWindow::on_pushButton_Generate_Keys_clicked() {
             ui->pushButton_Generate_Keys->setText("Ключи сгенерированы");
         }
 
-
+       }
         if (ui->radioButton_show->isChecked()) {
             window_show = new ShowKeys(this);
             window_show->show();
 
         }
 
-    }
+
 
 }
